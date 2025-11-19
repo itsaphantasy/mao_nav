@@ -321,6 +321,21 @@ export const mockData = {
           "icon": "/sitelogo/cursor.sh.ico"
         }
       ]
+    },
+    {
+      "id": "category-1763584628845",
+      "icon": "⚙️",
+      "name": "后台管理",
+      "order": 0,
+      "sites": [
+        {
+          "id": "site-1763584663095",
+          "name": "EDGETUNNEL",
+          "url": "https://cmliu.afcx.cc/login",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/cmliu.afcx.cc"
+        }
+      ]
     }
   ],
   "title": "凡尘戏"
