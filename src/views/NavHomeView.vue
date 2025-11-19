@@ -372,8 +372,8 @@ const handleSearch = () => {
 
 // 处理图片加载错误
 const handleImageError = (event) => {
-  // 设置默认的 favicon.ico 作为 fallback 图片
-  event.target.src = '/favicon.ico'
+  // 设置默认的 favicon.png 作为 fallback 图片
+  event.target.src = '/favicon.png'
   event.target.onerror = null // 防止无限循环
 }
 

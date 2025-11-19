@@ -193,7 +193,7 @@ export const mockData = {
           name: "示例网站",
           url: "https://example.com",
           description: "网站描述",
-          icon: "https://example.com/favicon.ico"
+          icon: "https://example.com/favicon.png"
         }
       ]
     }
