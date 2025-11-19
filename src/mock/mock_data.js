@@ -7,13 +7,6 @@ export const mockData = {
       "order": 0,
       "sites": [
         {
-          "id": "site-1752649007053",
-          "name": "BeJson",
-          "url": "https://www.bejson.com/",
-          "description": "工具大全",
-          "icon": "/sitelogo/www.bejson.com.ico"
-        },
-        {
           "id": "linux-do",
           "name": "Linux.do",
           "url": "https://linux.do",
@@ -90,6 +83,13 @@ export const mockData = {
           "url": "https://www.oracle.com/java/technologies/downloads/",
           "description": "Oracle官方Java下载",
           "icon": "/sitelogo/www.oracle.com.ico"
+        },
+        {
+          "id": "site-1752649007053",
+          "name": "BeJson",
+          "url": "https://www.bejson.com/",
+          "description": "工具大全",
+          "icon": "/sitelogo/www.bejson.com.ico"
         }
       ]
     },
@@ -133,6 +133,13 @@ export const mockData = {
           "url": "https://www.52pojie.cn/",
           "description": "软件安全与破解技术论坛",
           "icon": "/sitelogo/www.52pojie.cn.ico"
+        },
+        {
+          "id": "site-1763583847022",
+          "name": "Nodeloc",
+          "url": "https://www.nodeloc.com/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.nodeloc.com"
         }
       ]
     },
@@ -267,7 +274,7 @@ export const mockData = {
     },
     {
       "id": "ai-tools",
-      "name": "Ai-STUFF",
+      "name": "Ai-Stuff",
       "icon": "🤖",
       "order": 6,
       "sites": [
@@ -277,6 +284,20 @@ export const mockData = {
           "url": "https://chat.openai.com",
           "description": "OpenAI对话AI助手",
           "icon": "/sitelogo/chat.openai.com.ico"
+        },
+        {
+          "id": "copilot",
+          "name": "GitHub Copilot",
+          "url": "https://github.com/features/copilot",
+          "description": "AI代码助手",
+          "icon": "/sitelogo/github.com.ico"
+        },
+        {
+          "id": "site-1763583405096",
+          "name": "Gemni",
+          "url": "https://gemini.google.com",
+          "description": "谷歌Gemni",
+          "icon": "https://www.faviconextractor.com/favicon/gemini.google.com"
         },
         {
           "id": "claude",
@@ -293,13 +314,6 @@ export const mockData = {
           "icon": "/sitelogo/www.midjourney.com.ico"
         },
         {
-          "id": "copilot",
-          "name": "GitHub Copilot",
-          "url": "https://github.com/features/copilot",
-          "description": "AI代码助手",
-          "icon": "/sitelogo/github.com.ico"
-        },
-        {
           "id": "cursor",
           "name": "Cursor",
           "url": "https://cursor.sh",
@@ -309,7 +323,5 @@ export const mockData = {
       ]
     }
   ],
-  "title": "凡尘戏",
-  "_fileSha": "07a852bdeff8016bcc8e0647536df1cbdeed7420",
-  "search": "google"
+  "title": "凡尘戏"
 }
