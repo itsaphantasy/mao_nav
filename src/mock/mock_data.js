@@ -341,6 +341,13 @@ export const mockData = {
           "url": "https://mail.afcx.cc",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/mail.afcx.cc"
+        },
+        {
+          "id": "site-1763587026725",
+          "name": "AFCX-ADMIN",
+          "url": "https://afcx.cc/admin",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/afcx.cc"
         }
       ]
     }
