@@ -35,7 +35,7 @@
           <div class="header-actions">
             <button @click="emergencyReset" class="emergency-btn" hidden="true">🚨 紧急重置</button>
             <button @click="debugLoadData" class="debug-btn" hidden="true">🔍 调试加载</button>
-            <span class="user-info">管理员</span>
+            <span class="user-info">ADMIN</span>
             <button @click="logout" class="logout-btn">退出</button>
           </div>
         </div>
