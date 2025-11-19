@@ -7,11 +7,11 @@ export const mockData = {
       "order": 0,
       "sites": [
         {
-          "id": "linux-do",
-          "name": "Linux.do",
-          "url": "https://linux.do",
-          "description": "Linux技术社区，Peace and Love",
-          "icon": "https://www.faviconextractor.com/favicon/linux.do"
+          "id": "github",
+          "name": "GitHub",
+          "url": "https://github.com",
+          "description": "代码托管平台",
+          "icon": "/sitelogo/github.com.ico"
         },
         {
           "id": "site-1752857783656",
@@ -21,18 +21,11 @@ export const mockData = {
           "icon": "/sitelogo/chatgpt.com.ico"
         },
         {
-          "id": "github",
-          "name": "GitHub",
-          "url": "https://github.com",
-          "description": "代码托管平台",
-          "icon": "/sitelogo/github.com.ico"
-        },
-        {
-          "id": "curlconverter",
-          "name": "curl converter",
-          "url": "https://curlconverter.com/",
-          "description": "curl命令转换工具",
-          "icon": "/sitelogo/curlconverter.com.ico"
+          "id": "site-1763583405096",
+          "name": "Gemni",
+          "url": "https://gemini.google.com",
+          "description": "谷歌Gemni",
+          "icon": "https://www.faviconextractor.com/favicon/gemini.google.com"
         }
       ]
     },
@@ -76,13 +69,6 @@ export const mockData = {
           "url": "https://www.oracle.com/java/technologies/downloads/",
           "description": "Oracle官方Java下载",
           "icon": "/sitelogo/www.oracle.com.ico"
-        },
-        {
-          "id": "site-1752649007053",
-          "name": "BeJson",
-          "url": "https://www.bejson.com/",
-          "description": "工具大全",
-          "icon": "/sitelogo/www.bejson.com.ico"
         }
       ]
     },
@@ -140,42 +126,13 @@ export const mockData = {
           "url": "https://www.csdn.net/",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/www.csdn.net"
-        }
-      ]
-    },
-    {
-      "id": "learning",
-      "name": "学习资源",
-      "icon": "📚",
-      "order": 3,
-      "sites": [
-        {
-          "id": "mdn",
-          "name": "MDN Web Docs",
-          "url": "https://developer.mozilla.org",
-          "description": "Web开发权威文档",
-          "icon": "/sitelogo/developer.mozilla.org.ico"
         },
         {
-          "id": "w3school",
-          "name": "W3Schools",
-          "url": "https://www.w3schools.com",
-          "description": "Web技术教程",
-          "icon": "/sitelogo/www.w3schools.com.ico"
-        },
-        {
-          "id": "runoob",
-          "name": "菜鸟教程",
-          "url": "https://www.runoob.com",
-          "description": "编程技术教程",
-          "icon": "/sitelogo/www.runoob.com.ico"
-        },
-        {
-          "id": "coursera",
-          "name": "Coursera",
-          "url": "https://www.coursera.org",
-          "description": "在线课程平台",
-          "icon": "/sitelogo/www.coursera.org.ico"
+          "id": "linux-do",
+          "name": "Linux.do",
+          "url": "https://linux.do",
+          "description": "Linux技术社区，Peace and Love",
+          "icon": "https://www.faviconextractor.com/favicon/linux.do"
         }
       ]
     },
@@ -183,7 +140,7 @@ export const mockData = {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 4,
+      "order": 3,
       "sites": [
         {
           "id": "json-formatter",
@@ -212,6 +169,20 @@ export const mockData = {
           "url": "https://tinypng.com",
           "description": "图片压缩工具",
           "icon": "/sitelogo/tinypng.com.ico"
+        },
+        {
+          "id": "curlconverter",
+          "name": "curl converter",
+          "url": "https://curlconverter.com/",
+          "description": "curl命令转换工具",
+          "icon": "/sitelogo/curlconverter.com.ico"
+        },
+        {
+          "id": "site-1752649007053",
+          "name": "BeJson",
+          "url": "https://www.bejson.com/",
+          "description": "工具大全",
+          "icon": "/sitelogo/www.bejson.com.ico"
         }
       ]
     },
@@ -219,7 +190,7 @@ export const mockData = {
       "id": "cloud",
       "name": "云服务商",
       "icon": "☁️",
-      "order": 5,
+      "order": 4,
       "sites": [
         {
           "id": "cloudflare",
@@ -273,8 +244,44 @@ export const mockData = {
       ]
     },
     {
+      "id": "learning",
+      "name": "学习资源",
+      "icon": "📚",
+      "order": 5,
+      "sites": [
+        {
+          "id": "mdn",
+          "name": "MDN Web Docs",
+          "url": "https://developer.mozilla.org",
+          "description": "Web开发权威文档",
+          "icon": "/sitelogo/developer.mozilla.org.ico"
+        },
+        {
+          "id": "w3school",
+          "name": "W3Schools",
+          "url": "https://www.w3schools.com",
+          "description": "Web技术教程",
+          "icon": "/sitelogo/www.w3schools.com.ico"
+        },
+        {
+          "id": "runoob",
+          "name": "菜鸟教程",
+          "url": "https://www.runoob.com",
+          "description": "编程技术教程",
+          "icon": "/sitelogo/www.runoob.com.ico"
+        },
+        {
+          "id": "coursera",
+          "name": "Coursera",
+          "url": "https://www.coursera.org",
+          "description": "在线课程平台",
+          "icon": "/sitelogo/www.coursera.org.ico"
+        }
+      ]
+    },
+    {
       "id": "ai-tools",
-      "name": "Ai-Stuff",
+      "name": "人工智障",
       "icon": "🤖",
       "order": 6,
       "sites": [
@@ -291,13 +298,6 @@ export const mockData = {
           "url": "https://github.com/features/copilot",
           "description": "AI代码助手",
           "icon": "/sitelogo/github.com.ico"
-        },
-        {
-          "id": "site-1763583405096",
-          "name": "Gemni",
-          "url": "https://gemini.google.com",
-          "description": "谷歌Gemni",
-          "icon": "https://www.faviconextractor.com/favicon/gemini.google.com"
         },
         {
           "id": "claude",
@@ -326,7 +326,7 @@ export const mockData = {
       "id": "category-1763584628845",
       "icon": "⚙️",
       "name": "后台管理",
-      "order": 0,
+      "order": 7,
       "sites": [
         {
           "id": "site-1763584663095",
