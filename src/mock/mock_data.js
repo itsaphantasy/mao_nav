@@ -18,7 +18,7 @@ export const mockData = {
           "name": "Linux.do",
           "url": "https://linux.do",
           "description": "Linux技术社区，Peace and Love",
-          "icon": "/sitelogo/linux.do.ico"
+          "icon": "https://www.faviconextractor.com/favicon/linux.do"
         },
         {
           "id": "site-1752857783656",
@@ -44,53 +44,10 @@ export const mockData = {
       ]
     },
     {
-      "id": "ai-tools",
-      "name": "AI网站",
-      "icon": "🤖",
-      "order": 1,
-      "sites": [
-        {
-          "id": "chatgpt",
-          "name": "ChatGPT",
-          "url": "https://chat.openai.com",
-          "description": "OpenAI对话AI助手",
-          "icon": "/sitelogo/chat.openai.com.ico"
-        },
-        {
-          "id": "claude",
-          "name": "Claude",
-          "url": "https://claude.ai",
-          "description": "Anthropic AI助手",
-          "icon": "/sitelogo/claude.ai.ico"
-        },
-        {
-          "id": "midjourney",
-          "name": "Midjourney",
-          "url": "https://www.midjourney.com",
-          "description": "AI图像生成工具",
-          "icon": "/sitelogo/www.midjourney.com.ico"
-        },
-        {
-          "id": "copilot",
-          "name": "GitHub Copilot",
-          "url": "https://github.com/features/copilot",
-          "description": "AI代码助手",
-          "icon": "/sitelogo/github.com.ico"
-        },
-        {
-          "id": "cursor",
-          "name": "Cursor",
-          "url": "https://cursor.sh",
-          "description": "AI代码编辑器",
-          "icon": "/sitelogo/cursor.sh.ico"
-        }
-      ]
-    },
-    {
       "id": "dev-tools",
       "name": "开发工具",
       "icon": "🛠️",
-      "order": 2,
+      "order": 1,
       "sites": [
         {
           "id": "github",
@@ -140,7 +97,7 @@ export const mockData = {
       "id": "community",
       "name": "社区论坛",
       "icon": "👥",
-      "order": 3,
+      "order": 2,
       "sites": [
         {
           "id": "stackoverflow",
@@ -183,7 +140,7 @@ export const mockData = {
       "id": "learning",
       "name": "学习资源",
       "icon": "📚",
-      "order": 4,
+      "order": 3,
       "sites": [
         {
           "id": "mdn",
@@ -219,7 +176,7 @@ export const mockData = {
       "id": "tools",
       "name": "在线工具",
       "icon": "⚙️",
-      "order": 5,
+      "order": 4,
       "sites": [
         {
           "id": "json-formatter",
@@ -253,9 +210,9 @@ export const mockData = {
     },
     {
       "id": "cloud",
-      "name": "云服务",
+      "name": "云服务商",
       "icon": "☁️",
-      "order": 6,
+      "order": 5,
       "sites": [
         {
           "id": "cloudflare",
@@ -305,6 +262,49 @@ export const mockData = {
           "url": "https://www.pasyun.com/",
           "description": "ipv6机器",
           "icon": "/sitelogo/www.pasyun.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "name": "Ai-STUFF",
+      "icon": "🤖",
+      "order": 6,
+      "sites": [
+        {
+          "id": "chatgpt",
+          "name": "ChatGPT",
+          "url": "https://chat.openai.com",
+          "description": "OpenAI对话AI助手",
+          "icon": "/sitelogo/chat.openai.com.ico"
+        },
+        {
+          "id": "claude",
+          "name": "Claude",
+          "url": "https://claude.ai",
+          "description": "Anthropic AI助手",
+          "icon": "/sitelogo/claude.ai.ico"
+        },
+        {
+          "id": "midjourney",
+          "name": "Midjourney",
+          "url": "https://www.midjourney.com",
+          "description": "AI图像生成工具",
+          "icon": "/sitelogo/www.midjourney.com.ico"
+        },
+        {
+          "id": "copilot",
+          "name": "GitHub Copilot",
+          "url": "https://github.com/features/copilot",
+          "description": "AI代码助手",
+          "icon": "/sitelogo/github.com.ico"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "url": "https://cursor.sh",
+          "description": "AI代码编辑器",
+          "icon": "/sitelogo/cursor.sh.ico"
         }
       ]
     }
