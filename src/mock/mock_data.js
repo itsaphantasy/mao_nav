@@ -140,6 +140,13 @@ export const mockData = {
           "url": "https://www.nodeloc.com/",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/www.nodeloc.com"
+        },
+        {
+          "id": "site-1763583911983",
+          "name": "CSDN",
+          "url": "https://www.csdn.net/",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.csdn.net"
         }
       ]
     },
