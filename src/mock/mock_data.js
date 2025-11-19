@@ -43,13 +43,6 @@ export const mockData = {
       "order": 1,
       "sites": [
         {
-          "id": "github",
-          "name": "GitHub",
-          "url": "https://github.com",
-          "description": "代码托管平台",
-          "icon": "/sitelogo/github.com.ico"
-        },
-        {
           "id": "vscode",
           "name": "VS Code",
           "url": "https://code.visualstudio.com",
