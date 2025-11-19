@@ -33,7 +33,7 @@
       <!-- Logo区域 -->
       <div class="logo-section">
         <img src="/logo.png" alt="logo" class="logo" />
-        <h1 class="site-title">{{ title || '猫猫导航' }}</h1>
+        <h1 class="site-title">{{ title || 'AFCX导航' }}</h1>
       </div>
 
       <!-- 分类导航 -->
@@ -186,7 +186,7 @@
           <footer class="page-footer" hidden="true">
             <div class="footer-content">
               <div class="footer-info">
-                <h3>{{ title || '猫猫导航' }}</h3>
+                <h3>{{ title || 'AFCX导航' }}</h3>
                 <p>一个简洁、美观的导航网站，收录优质网站资源</p>
               </div>
 
@@ -206,7 +206,7 @@
             </div>
 
             <div class="footer-bottom">
-              <p>&copy; {{ new Date().getFullYear() }} 猫猫导航 - 由 <a href="https://github.com/maodeyu180" target="_blank" rel="noopener noreferrer">maodeyu180</a> 用 ❤️ 制作</p>
+              <p>&copy; {{ new Date().getFullYear() }} 本NAV开源地址 <a href="https://github.com/maodeyu180" target="_blank" rel="noopener noreferrer">maodeyu180</a> 用 ❤️ 制作</p>
               <p class="footer-tech">基于 Vue.js 构建 | <a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="noopener noreferrer">查看源代码</a></p>
             </div>
           </footer>
@@ -224,7 +224,6 @@ import { useThemeStore } from '@/stores/counter.js'
 import googleLogo from '@/assets/goolge.png'
 import baiduLogo from '@/assets/baidu.png'
 import bingLogo from '@/assets/bing.png'
-import duckLogo from '@/assets/duck.png'
 // 导入GitHub logo
 import githubLogo from '@/assets/github.png'
 
@@ -262,11 +261,6 @@ const searchEngines = {
     url: 'https://www.bing.com/search?q=',
     icon: bingLogo,
     placeholder: 'Bing (点logo切换搜索引擎)'
-  },
-  duckduckgo: {
-    url: 'https://duckduckgo.com/?q=',
-    icon: duckLogo,
-    placeholder: 'DuckDuckGo (点logo切换搜索引擎)'
   }
 }
 
