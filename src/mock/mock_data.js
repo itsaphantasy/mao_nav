@@ -334,11 +334,25 @@ export const mockData = {
           "url": "https://cmliu.afcx.cc/login",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/cmliu.afcx.cc"
+        },
+        {
+          "id": "site-1763586980625",
+          "name": "AFCX-EMAIL",
+          "url": "https://mail.afcx.cc",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/mail.afcx.cc"
+        },
+        {
+          "id": "site-1763587026725",
+          "name": "AFCX-ADMIN",
+          "url": "https://afcx.cc/admin",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/afcx.cc"
         }
       ]
     }
   ],
   "title": "AFCX",
-  "_fileSha": "4059c2dd8a95a37d18b9939bbc9152d32428632f",
+  "_fileSha": "4a65ec3d33958e2354e77afc2ff836f2f216e30c",
   "search": "google"
 }
