@@ -26,6 +26,13 @@ export const mockData = {
           "url": "https://gemini.google.com",
           "description": "谷歌Gemni",
           "icon": "https://www.faviconextractor.com/favicon/gemini.google.com"
+        },
+        {
+          "id": "site-1763639253093",
+          "name": "cloudflare",
+          "url": "https://www.cloudflare.com",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.cloudflare.com"
         }
       ]
     },
@@ -352,7 +359,5 @@ export const mockData = {
       ]
     }
   ],
-  "title": "AFCX",
-  "_fileSha": "4a65ec3d33958e2354e77afc2ff836f2f216e30c",
-  "search": "google"
+  "title": "AFCX"
 }
