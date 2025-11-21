@@ -357,6 +357,21 @@ export const mockData = {
           "icon": "https://www.faviconextractor.com/favicon/afcx.cc"
         }
       ]
+    },
+    {
+      "id": "category-1763744105959",
+      "icon": "🔍",
+      "name": "澳门马经",
+      "order": 0,
+      "sites": [
+        {
+          "id": "site-1763744228051",
+          "name": "49图库",
+          "url": "https://www.4499.com",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/www.4499.com"
+        }
+      ]
     }
   ],
   "title": "AFCX"
