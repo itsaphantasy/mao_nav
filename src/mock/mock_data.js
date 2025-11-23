@@ -14,13 +14,6 @@ export const mockData = {
           "icon": "/sitelogo/github.com.ico"
         },
         {
-          "id": "site-1752857783656",
-          "name": "OpenAI",
-          "url": "https://chatgpt.com",
-          "description": "OpenAI,好用👌",
-          "icon": "/sitelogo/chatgpt.com.ico"
-        },
-        {
           "id": "site-1763583405096",
           "name": "Gemni",
           "url": "https://gemini.google.com",
@@ -33,6 +26,13 @@ export const mockData = {
           "url": "https://www.cloudflare.com",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/www.cloudflare.com"
+        },
+        {
+          "id": "site-1763868726204",
+          "name": "zread",
+          "url": "https://zread.ai",
+          "description": "github项目配置分析",
+          "icon": "https://zread.ai"
         }
       ]
     },
