@@ -355,6 +355,13 @@ export const mockData = {
           "url": "https://afcx.cc/admin",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/afcx.cc"
+        },
+        {
+          "id": "site-1763981736916",
+          "name": "CLOCK-ADMIN",
+          "url": "https://clock.afcx.cc",
+          "description": "土鸡到期投食提醒。",
+          "icon": "https://clock.afcx.cc"
         }
       ]
     },
