@@ -362,6 +362,13 @@ export const mockData = {
           "url": "https://clock.afcx.cc",
           "description": "土鸡到期投食提醒。",
           "icon": "https://clock.afcx.cc"
+        },
+        {
+          "id": "site-1764000151211",
+          "name": "LunaTV",
+          "url": "https://tv.afcx.cc",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/tv.afcx.cc"
         }
       ]
     },
