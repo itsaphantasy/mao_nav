@@ -32,7 +32,7 @@ export const mockData = {
           "name": "zread",
           "url": "https://zread.ai",
           "description": "github项目配置分析",
-          "icon": "https://zread.ai"
+          "icon": "https://www.faviconextractor.com/favicon/zread.ai"
         }
       ]
     },
