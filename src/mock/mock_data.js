@@ -344,28 +344,28 @@ export const mockData = {
         },
         {
           "id": "site-1763586980625",
-          "name": "AFCX-EMAIL",
+          "name": "AFCX-Email",
           "url": "https://mail.afcx.cc",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/mail.afcx.cc"
         },
         {
           "id": "site-1763587026725",
-          "name": "AFCX-ADMIN",
+          "name": "AFCX-Login",
           "url": "https://afcx.cc/admin",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/afcx.cc"
         },
         {
           "id": "site-1763981736916",
-          "name": "CLOCK-ADMIN",
+          "name": "CLOCK-Login",
           "url": "https://clock.afcx.cc",
           "description": "土鸡到期投食提醒。",
           "icon": "https://clock.afcx.cc"
         },
         {
           "id": "site-1764000151211",
-          "name": "LunaTV",
+          "name": "LunaTV-Login",
           "url": "https://tv.afcx.cc",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/tv.afcx.cc"
