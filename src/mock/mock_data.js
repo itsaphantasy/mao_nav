@@ -369,6 +369,13 @@ export const mockData = {
           "url": "https://tv.afcx.cc",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/tv.afcx.cc"
+        },
+        {
+          "id": "site-1764095028562",
+          "name": "IP6.ARPA-SSL",
+          "url": "https://ssl.afcx.cc",
+          "description": "",
+          "icon": "https://www.faviconextractor.com/favicon/ssl.afcx.cc"
         }
       ]
     },
