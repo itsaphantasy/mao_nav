@@ -33,6 +33,13 @@ export const mockData = {
           "url": "https://zread.ai",
           "description": "github项目配置分析",
           "icon": "https://www.faviconextractor.com/favicon/zread.ai"
+        },
+        {
+          "id": "site-1764147645228",
+          "name": "有趣的开源社区",
+          "url": "https://hellogithub.com",
+          "description": "HelloGitHub 是一群热爱开源的人",
+          "icon": "https://www.hellogithub.com"
         }
       ]
     },
