@@ -359,7 +359,7 @@ export const mockData = {
         {
           "id": "site-1763587026725",
           "name": "AFCX-Login",
-          "url": "https://afcx.cc/admin",
+          "url": "https://nav.afcx.cc/admin",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/afcx.cc"
         },
