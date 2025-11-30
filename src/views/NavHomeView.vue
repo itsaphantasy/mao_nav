@@ -547,7 +547,7 @@ onUnmounted(() => {
 }
 
 .category-item:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.6);
   box-shadow: inset 4px 0 0 #4c9eff;
 }
 
