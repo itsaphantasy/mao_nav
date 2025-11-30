@@ -33,7 +33,7 @@
       <!-- Logo区域 -->
       <div class="logo-section">
         <img src="/logo.png" alt="logo" class="logo" />
-        <h1 class="site-title">{{ title || 'AFCX导航' }}</h1>
+        <h1 class="site-title">{{ title || '猫猫导航' }}</h1>
       </div>
 
       <!-- 分类导航 -->
@@ -51,28 +51,46 @@
           </li>
         </ul>
       </nav>
+
+      <!-- 左侧边栏底部信息 -->
+      <div class="sidebar-footer">
+        <a
+          href="https://github.com/maodeyu180/mao_nav"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="github-link"
+          title="查看源代码"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+          <span>开源不易，Star一下吧！⭐</span>
+        </a>
+      </div>
+    </aside>
+
     <!-- 右侧主内容区 -->
     <main class="main-content">
-
-      <!-- 顶部搜索栏 -->
-<header class="search-header">
-  <div class="search-container">
-    <div class="search-engine-selector">
-      <img 
-        :src="searchEngines[selectedEngine].icon" 
-        :alt="selectedEngine" 
-        class="engine-logo" 
-        @click="switchSearchEngine"  />
-      </div>
-    <input
-      type="text"
-      v-model="searchQuery"
-      :placeholder="searchEngines[selectedEngine].placeholder"
-      class="search-input"
-      @keyup.enter="handleSearch"
-    />
-  </div>
-  </header>
+                  <!-- 顶部搜索栏 -->
+      <header class="search-header">
+        <div class="search-container">
+          <div class="search-engine-selector">
+            <img :src="searchEngines[selectedEngine].icon" :alt="selectedEngine" class="engine-logo" />
+            <select v-model="selectedEngine" class="engine-select">
+              <option value="google">Google</option>
+              <option value="baidu">Baidu</option>
+              <option value="bing">Bing</option>
+              <option value="duckduckgo">DuckDuckGo</option>
+            </select>
+          </div>
+          <input
+            type="text"
+            v-model="searchQuery"
+            :placeholder="searchEngines[selectedEngine].placeholder"
+            class="search-input"
+            @keyup.enter="handleSearch"
+          />
+        </div>
 
         <!-- 主题切换按钮 -->
         <button class="theme-toggle-btn" @click="themeStore.toggleTheme" :title="themeStore.isDarkMode ? '切换到日间模式' : '切换到夜间模式'">
@@ -164,6 +182,40 @@
             </div>
           </section>
 
+          <!-- 页面底部信息 -->
+          <footer class="page-footer" hidden="true">
+            <div class="footer-content">
+              <div class="footer-info">
+                <h3>{{ title || '猫猫导航' }}</h3>
+                <p>一个简洁、美观的导航网站，收录优质网站资源</p>
+              </div>
+
+              <div class="footer-links">
+                <a
+                  href="https://github.com/maodeyu180/mao_nav"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer-link"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  开源项目
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <p>&copy; {{ new Date().getFullYear() }} 猫猫导航 - 由 <a href="https://github.com/maodeyu180" target="_blank" rel="noopener noreferrer">maodeyu180</a> 用 ❤️ 制作</p>
+              <p class="footer-tech">基于 Vue.js 构建 | <a href="https://github.com/maodeyu180/mao_nav" target="_blank" rel="noopener noreferrer">查看源代码</a></p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </main>
+  </div>
+</template>
+
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useNavigation } from '@/apis/useNavigation.js'
@@ -172,6 +224,7 @@ import { useThemeStore } from '@/stores/counter.js'
 import googleLogo from '@/assets/goolge.png'
 import baiduLogo from '@/assets/baidu.png'
 import bingLogo from '@/assets/bing.png'
+import duckLogo from '@/assets/duck.png'
 // 导入GitHub logo
 import githubLogo from '@/assets/github.png'
 
@@ -182,24 +235,6 @@ const { categories, title, defaultSearchEngine, loading, error, fetchCategories 
 const themeStore = useThemeStore()
 
 // 响应式数据
-const selectedEngine = ref('bing') // 选中的搜索引擎，初始值会在组件挂载后更新
-const showMobileMenu = ref(false) // 移动端菜单显示状态
-// 【🎯 新增代码开始】
-// 搜索引擎键名数组 (用于循环切换)
-const engineKeys = ['google', 'baidu', 'bing'];
-
-// 切换搜索引擎的方法
-const switchSearchEngine = () => {
-  const currentIndex = engineKeys.indexOf(selectedEngine.value);
-  // 计算下一个索引，如果达到末尾则返回到开头 (0)
-  const nextIndex = (currentIndex + 1) % engineKeys.length;
-  selectedEngine.value = engineKeys[nextIndex];
-};
-// 【🎯 新增代码结束】
-
-// 锁定功能相关
-const isLocked = ref(false) // 是否启用锁定功能
-// ...
 const searchQuery = ref('') // 搜索查询
 const selectedEngine = ref('bing') // 选中的搜索引擎，初始值会在组件挂载后更新
 const showMobileMenu = ref(false) // 移动端菜单显示状态
@@ -227,6 +262,11 @@ const searchEngines = {
     url: 'https://www.bing.com/search?q=',
     icon: bingLogo,
     placeholder: 'Bing (点logo切换搜索引擎)'
+  },
+  duckduckgo: {
+    url: 'https://duckduckgo.com/?q=',
+    icon: duckLogo,
+    placeholder: 'DuckDuckGo (点logo切换搜索引擎)'
   }
 }
 
@@ -339,8 +379,8 @@ const handleSearch = () => {
 
 // 处理图片加载错误
 const handleImageError = (event) => {
-  // 设置默认的 favicon.png 作为 fallback 图片
-  event.target.src = '/favicon.png'
+  // 设置默认的 favicon.ico 作为 fallback 图片
+  event.target.src = '/favicon.ico'
   event.target.onerror = null // 防止无限循环
 }
 
@@ -502,7 +542,7 @@ onUnmounted(() => {
 
 /* 左侧边栏样式 */
 .sidebar {
-  width: 220px;
+  width: 280px;
   background-color: #2c3e50;
   color: white;
   padding: 0;
@@ -564,18 +604,9 @@ onUnmounted(() => {
   transition: all 0.3s ease;
   position: relative;
 }
-.category-item:hover {
-  /* 设置半透明背景 (例如 20% 不透明) */
-  background-color: rgba(255, 255, 255, 0.5);  
-  
-  /* 添加背景模糊效果 (毛玻璃核心) */
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px); /* 兼容 Safari 浏览器 */
-  
-  /* 增加一个细微的边框或阴影来增强质感 */
-  border: 1px solid rgba(255, 255, 255, 0.2);
 
-  /* 保持您的亮色竖条，或者修改它 */
+.category-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
   box-shadow: inset 4px 0 0 #3498db;
 }
 
@@ -597,6 +628,33 @@ onUnmounted(() => {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: auto;
 }
+
+.github-link {
+  display: flex;
+  align-items: center;
+  color: #bdc3c7;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.github-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.github-link svg {
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+.github-link:hover svg {
+  transform: scale(1.1);
+}
+
 /* 右侧主内容区样式 */
 .main-content {
   flex: 1;
@@ -604,7 +662,6 @@ onUnmounted(() => {
   flex-direction: column;
   height: 100vh;
   overflow: hidden;
-  margin-left: 220px;
 }
 
 .search-header {
@@ -798,7 +855,7 @@ onUnmounted(() => {
 }
 
 .mobile-category-item:hover {
-  background: #4c9eff;
+  background: #f8f9fa;
 }
 
 .mobile-category-item .category-icon {
