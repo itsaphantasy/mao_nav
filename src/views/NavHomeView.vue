@@ -545,10 +545,19 @@ onUnmounted(() => {
   transition: all 0.3s ease;
   position: relative;
 }
-
 .category-item:hover {
-  background-color: rgba(255, 255, 255, 0.6);
-  box-shadow: inset 4px 0 0 #4c9eff;
+  /* 设置半透明背景 (例如 20% 不透明) */
+  background-color: rgba(255, 255, 255, 0.2);  
+  
+  /* 添加背景模糊效果 (毛玻璃核心) */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* 兼容 Safari 浏览器 */
+  
+  /* 增加一个细微的边框或阴影来增强质感 */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  /* 保持您的亮色竖条，或者修改它 */
+  box-shadow: inset 4px 0 0 #3498db;
 }
 
 .category-icon {
