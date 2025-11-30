@@ -535,7 +535,7 @@ onUnmounted(() => {
 
 /* 左侧边栏样式 */
 .sidebar {
-  width: 280px;
+  width: 220px;
   background-color: #2c3e50;
   color: white;
   padding: 0;
