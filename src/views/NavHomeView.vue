@@ -182,6 +182,24 @@ const { categories, title, defaultSearchEngine, loading, error, fetchCategories 
 const themeStore = useThemeStore()
 
 // 响应式数据
+const selectedEngine = ref('bing') // 选中的搜索引擎，初始值会在组件挂载后更新
+const showMobileMenu = ref(false) // 移动端菜单显示状态
+// 【🎯 新增代码开始】
+// 搜索引擎键名数组 (用于循环切换)
+const engineKeys = ['google', 'baidu', 'bing'];
+
+// 切换搜索引擎的方法
+const switchSearchEngine = () => {
+  const currentIndex = engineKeys.indexOf(selectedEngine.value);
+  // 计算下一个索引，如果达到末尾则返回到开头 (0)
+  const nextIndex = (currentIndex + 1) % engineKeys.length;
+  selectedEngine.value = engineKeys[nextIndex];
+};
+// 【🎯 新增代码结束】
+
+// 锁定功能相关
+const isLocked = ref(false) // 是否启用锁定功能
+// ...
 const searchQuery = ref('') // 搜索查询
 const selectedEngine = ref('bing') // 选中的搜索引擎，初始值会在组件挂载后更新
 const showMobileMenu = ref(false) // 移动端菜单显示状态
