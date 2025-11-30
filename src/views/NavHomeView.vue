@@ -578,33 +578,6 @@ onUnmounted(() => {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: auto;
 }
-
-.github-link {
-  display: flex;
-  align-items: center;
-  color: #bdc3c7;
-  text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-  font-size: 14px;
-}
-
-.github-link:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
-  transform: translateY(-1px);
-}
-
-.github-link svg {
-  margin-right: 8px;
-  transition: transform 0.3s ease;
-}
-
-.github-link:hover svg {
-  transform: scale(1.1);
-}
-
 /* 右侧主内容区样式 */
 .main-content {
   flex: 1;
