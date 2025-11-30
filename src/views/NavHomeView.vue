@@ -548,7 +548,7 @@ onUnmounted(() => {
 
 .category-item:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: inset 4px 0 0 #3498db;
+  box-shadow: inset 4px 0 0 #5c5c83;
 }
 
 .category-icon {
@@ -796,7 +796,7 @@ onUnmounted(() => {
 }
 
 .mobile-category-item:hover {
-  background: #f8f9fa;
+  background: #5c5c83;
 }
 
 .mobile-category-item .category-icon {
