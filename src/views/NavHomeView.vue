@@ -603,6 +603,7 @@ onUnmounted(() => {
   flex-direction: column;
   height: 100vh;
   overflow: hidden;
+  margin-left: 220px;
 }
 
 .search-header {
