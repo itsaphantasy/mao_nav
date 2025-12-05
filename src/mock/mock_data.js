@@ -352,7 +352,7 @@ export const mockData = {
         {
           "id": "site-1763586980625",
           "name": "AFCX-Email",
-          "url": "https://mail.afcx.cc",
+          "url": "https://femail.afcx.cc",
           "description": "",
           "icon": "https://www.faviconextractor.com/favicon/mail.afcx.cc"
         },
